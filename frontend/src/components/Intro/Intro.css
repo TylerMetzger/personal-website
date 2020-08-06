@@ -1,0 +1,78 @@
+@keyframes pictureOfMeAnimation {
+    0% {
+        transform: translateX(-50%);
+        left: 50vw;
+    }
+    100% {
+        transform: translateX(0%);
+        left: 0;
+    }
+}
+
+@keyframes pictureOfMeAnimationMobile {
+    0% {
+        opacity: 0%;
+        transform: translate(-50%, 90%);
+    }
+    100% {
+        opacity: 100%;
+        transform: translate(-50%, 0%);
+    }
+}
+
+@keyframes introAnimation {
+    0% {
+        opacity: 0%;
+        transform: translateY(90%);
+    }
+    100% {
+        opacity: 100%;
+        transform: translateY(0%);
+    }
+}
+
+.pictureOfMe {
+    /* Constant State */
+    object-fit: cover;
+    object-position: center;
+
+    /* Animation Stuff */
+    animation-duration: 1.0s;
+    animation-delay: 0.75s;
+    animation-fill-mode: forwards;
+}
+
+.introTitle {
+    /* Constant State */
+    text-align: center;
+    vertical-align: middle;
+
+    /* Animation Stuff */
+    animation-name: introAnimation;
+    animation-duration: 1.0s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+
+    /* Initial Position */
+    opacity: 0%;
+    transform: translateY(90%);
+}
+
+.introDetails {
+    /* Constant State */
+    text-align: center;
+    vertical-align: bottom;
+
+    
+    /* Animation Stuff */
+    animation-name: introAnimation;
+    animation-duration: 1.0s;
+    animation-delay: 2.25s;
+    animation-fill-mode: forwards;
+
+    /* Initial Position */
+    opacity: 0%;
+    transform: translateY(90%);
+}
+
+

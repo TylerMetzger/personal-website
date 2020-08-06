@@ -1,0 +1,24 @@
+.linkedinIcon {
+    font-size: 24px;
+    transform: translate(-35%, 50%);
+}
+.emailIcon {
+    font-size: 24px;
+    transform: translate(0%, 50%);
+}
+
+.githubIcon {
+    font-size: 24px;
+    transform: translate(-65%, 50%);
+}
+
+.iconDiv {
+    text-align: right;
+    transform: translateX(-5%);
+}
+
+.footerRow {
+    height: 47.6px;
+    background-color: var(--azure-x-11-web-color);
+    box-shadow: 2px -5px 20px 0 var(--charleston-green);
+}

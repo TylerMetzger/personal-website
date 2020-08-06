@@ -1,0 +1,27 @@
+.toggleIconCode {
+    font-size: 24px;
+    vertical-align: middle;
+    transform: translateX(0%);
+}
+.toggle{
+    transform: translateX(-8%);   
+}
+.toggleIconPic {
+    font-size: 24px;
+    vertical-align: middle;
+    transform: translateX(-30%);
+}
+.toggleCol {
+    background-color: var(--azure-x-11-web-color);
+}
+.toggleDiv{
+    transform: translate(-5%, 50%);
+    text-align: right;
+}
+.headerMenu{
+    background-color: var(--azure-x-11-web-color);
+}
+.headerRow{
+    background-color: var(--azure-x-11-web-color);
+    box-shadow: 2px 5px 20px 0 var(--charleston-green);
+}
