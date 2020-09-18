@@ -1,0 +1,78 @@
+#about {
+	background-color: white;
+	box-shadow: 0px 0px 20px 5px var(--tertiary);
+}
+
+.codeAbout {
+	background-color: #1e1e1e !important;
+}
+
+/************* Screen Sizes as described by Google Chrome **************/
+
+@media screen and (min-width: 0px) {
+	/* smaller than a large mobile phone */
+
+	.codeAboutTitle {
+		text-align: center !important;
+		font-size: 72px;
+		color: white;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+		font-family: "Source Code Pro", monospace;
+	}
+	.codeAboutDesc {
+		color: white;
+		font-size: 15.7px;
+		font-family: "Recursive", sans-serif;
+	}
+}
+
+@media screen and (min-width: 425px) {
+	/* between large mobile phone and tablet */
+
+	.codeAboutTitle {
+		text-align: center !important;
+		font-size: 72px;
+		color: white;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+		font-family: "Source Code Pro", monospace;
+	}
+	.codeAboutDesc {
+		color: white;
+		font-size: 15.7px;
+		font-family: "Recursive", sans-serif;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	/* between tablet and small laptop */
+
+	.codeAboutTitle {
+		text-align: center !important;
+		font-size: 72px;
+		color: white;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+		font-family: "Source Code Pro", monospace;
+	}
+	.codeAboutDesc {
+		color: white;
+		font-size: 18.7px;
+		font-family: "Recursive", sans-serif;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	/* small laptop or larger */
+
+	.codeAboutTitle {
+		text-align: center !important;
+		font-size: 72px;
+		color: white;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+		font-family: "Source Code Pro", monospace;
+	}
+	.codeAboutDesc {
+		color: white;
+		font-size: 21.7px;
+		font-family: "Recursive", sans-serif;
+	}
+}

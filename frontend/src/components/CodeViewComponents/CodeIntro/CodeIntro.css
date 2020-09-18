@@ -1,0 +1,106 @@
+#intro {
+	min-height: calc(100vh - 47.6px - 47.6px);
+	background: url(../../../assets/test-images/introTestBackground.jpg) no-repeat
+		center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #1c120c;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	backdrop-filter: blur(2px);
+	-webkit-backdrop-filter: blur(2px);
+	z-index: -2;
+}
+.codeIntro {
+	min-height: calc(100vh - 47.6px - 47.6px) !important;
+	background: url(../../../assets/test-images/codeIntroTestBackground.jpg)
+		no-repeat center fixed !important;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
+	background-color: #1c120c !important;
+	background-attachment: fixed !important;
+	position: relative !important;
+	overflow: hidden !important;
+	backdrop-filter: blur(2px) !important;
+	-webkit-backdrop-filter: blur(2px) !important;
+	z-index: -2 !important;
+}
+
+@media screen and (min-width: 0px) {
+	.codeIntroDetails {
+		/* Constant State */
+		text-align: left;
+		vertical-align: middle;
+		font-size: 14px;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	}
+
+	.codeIntroTopper {
+		text-align: left;
+		vertical-align: middle;
+		font-size: 14px;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	}
+	.codeIntroFooter {
+		text-align: left;
+		vertical-align: middle;
+		font-size: 14px;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	}
+}
+
+@media screen and (min-width: 425px) {
+	.codeIntroDetails {
+		/* Constant State */
+		text-align: left;
+		vertical-align: middle;
+		font-size: 16.5px;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	}
+
+	.codeIntroTopper {
+		text-align: left;
+		vertical-align: middle;
+		font-size: 16.5px;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	}
+	.codeIntroFooter {
+		text-align: left;
+		vertical-align: middle;
+		font-size: 16.5px;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.codeIntroDetails {
+		/* Constant State */
+		text-align: left;
+		vertical-align: middle;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	}
+
+	.codeIntroTopper {
+		padding-top: 30vh;
+		text-align: left;
+		vertical-align: middle;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	}
+	.codeIntroFooter {
+		padding-bottom: 30vh;
+		text-align: left;
+		vertical-align: middle;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	}
+	.codeIntroText {
+		color: white;
+		text-align: center;
+		font-size: 40px;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	}
+}

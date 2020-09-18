@@ -1,0 +1,245 @@
+/************* Screen Sizes as described by Google Chrome **************/
+
+.ant-modal-wrap {
+	overflow-y: scroll;
+}
+
+@media screen and (min-width: 0px) {
+	/* smaller than a large mobile phone */
+
+	.codeProjectsTitle {
+		text-align: center;
+		font-size: 58px;
+		color: white;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	}
+	.codeProjectCard {
+		background-color: #1e1e1e;
+		border-color: #1e1e1e;
+		width: 320px;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: left;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+	.codeProjectCard:hover {
+		box-shadow: var(--highlight) 0 0 30px 1px;
+	}
+	.codeWipCard {
+		background-color: #1e1e1e;
+		border-color: #1e1e1e;
+		width: 320px;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: left;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+	.codeArrow {
+		font-size: 30px;
+		color: var(--primary) !important;
+		transition: 200ms;
+	}
+	.codeArrow:hover {
+		font-size: 36px;
+		filter: brightness(110%);
+	}
+	.codeLeftArrow {
+		float: left;
+	}
+	.codeRightArrow {
+		float: right;
+	}
+	.codeCarouselEntryWrapper {
+		background-color: #1e1e1e;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 425px) {
+	/* between large mobile phone and tablet */
+
+	.codeProjectsTitle {
+		text-align: center;
+		font-size: 72px;
+		color: white;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	}
+	.codeProjectCard {
+		background-color: #1e1e1e;
+		border-color: #1e1e1e;
+		width: 320px;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: left;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+	.codeProjectCard:hover {
+		box-shadow: var(--highlight) 0 0 30px 1px;
+	}
+	.codeWipCard {
+		background-color: #1e1e1e;
+		border-color: #1e1e1e;
+		width: 320px;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: left;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+
+	.codeCarouselEntryWrapper {
+		background-color: #1e1e1e;
+		text-align: center;
+	}
+
+	.ant-modal {
+		width: 400px !important;
+	}
+	.codeArrow {
+		font-size: 30px;
+		color: var(--primary) !important;
+		transition: 200ms;
+	}
+	.codeArrow:hover {
+		font-size: 36px;
+		filter: brightness(110%);
+	}
+	.codeLeftArrow {
+		float: left;
+	}
+	.codeRightArrow {
+		float: right;
+	}
+	.codeProjectsRow {
+		max-width: 1500px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	/* between tablet and small laptop */
+
+	.codeProjectsTitle {
+		text-align: center;
+		font-size: 72px;
+		color: white;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	}
+
+	.codeProjectCard {
+		background-color: #1e1e1e;
+		border-color: #1e1e1e;
+		width: 320px;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: left;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+	.codeWipCard {
+		background-color: #1e1e1e;
+		border-color: #1e1e1e;
+		width: 320px;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: left;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+	.codeProjectCard:hover {
+		box-shadow: var(--highlight) 0 0 30px 1px;
+	}
+
+	.codeCarouselEntryWrapper {
+		background-color: #1e1e1e;
+		text-align: center;
+	}
+
+	.ant-modal {
+		width: 700px !important;
+	}
+	.codeArrow {
+		font-size: 30px;
+		color: var(--primary) !important;
+		transition: 200ms;
+	}
+	.codeArrow:hover {
+		font-size: 36px;
+		filter: brightness(110%);
+	}
+	.codeLeftArrow {
+		float: left;
+	}
+	.codeRightArrow {
+		float: right;
+	}
+	.codeProjectsRow {
+		max-width: 1500px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	/* small laptop or larger */
+
+	.codeProjectsTitle {
+		text-align: center;
+		font-size: 72px;
+		color: white;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	}
+	.codeProjectCard {
+		background-color: #1e1e1e;
+		border-color: #1e1e1e;
+		width: 320px;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: left;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+	.codeWipCard {
+		background-color: #1e1e1e;
+		border-color: #1e1e1e;
+		width: 320px;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: left;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+	.codeProjectCard:hover {
+		box-shadow: var(--highlight) 0 0 30px 1px;
+	}
+
+	.codeCarouselEntryWrapper {
+		background-color: #1e1e1e;
+		text-align: center;
+	}
+
+	.ant-modal {
+		width: 900px !important;
+	}
+	.codeArrow {
+		font-size: 30px;
+		color: var(--primary) !important;
+		transition: 200ms;
+	}
+	.codeArrow:hover {
+		font-size: 36px;
+		filter: brightness(110%);
+	}
+	.codeLeftArrow {
+		float: left;
+	}
+	.codeRightArrow {
+		float: right;
+	}
+	.codeProjectsRow {
+		max-width: 1500px;
+		margin: 0 auto;
+	}
+}

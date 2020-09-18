@@ -1,0 +1,33 @@
+#resume {
+	background-color: white;
+	box-shadow: 0px 0px 20px 5px var(--tertiary);
+}
+.codeResume {
+	background-color: #1e1e1e !important;
+}
+
+.codeResumeTitle {
+	text-align: center;
+	font-size: 72px;
+	color: white;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	font-family: "Source Code Pro", monospace;
+}
+.codeResumeDivider::before,
+.codeRsumeDivider::after {
+	border-color: white;
+}
+
+.codeResumeDetails {
+	max-width: 1800px;
+	margin: 0 auto;
+}
+
+.codeResumeSubtitle {
+	padding: 10px;
+	text-align: center;
+}
+
+.codeList {
+	color: white;
+}
