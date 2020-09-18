@@ -1,0 +1,48 @@
+#intro {
+	min-height: calc(100vh - 47.6px - 47.6px);
+	background: url(../../../assets/test-images/introTestBackground.jpg) no-repeat
+		center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #1c120c;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	backdrop-filter: blur(2px);
+	-webkit-backdrop-filter: blur(2px);
+	z-index: -1;
+}
+
+.codeIntro {
+	background: url(../../../assets/test-images/codeIntroTestBackground.jpg)
+		no-repeat center fixed;
+}
+
+.introRow {
+	padding-top: 30vh;
+	padding-bottom: 30vh;
+	z-index: 3;
+	position: relative;
+}
+
+.introGreeting {
+	/* Constant State */
+	text-align: center;
+	vertical-align: middle;
+	font-size: 48px;
+	color: white;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	font-family: "Source Code Pro", monospace;
+}
+
+.introName {
+	/* Constant State */
+	text-align: center;
+	vertical-align: middle;
+	font-size: 72px;
+	color: white;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	font-family: "Source Code Pro", monospace;
+}

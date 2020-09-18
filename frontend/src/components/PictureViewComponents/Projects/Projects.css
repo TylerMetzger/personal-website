@@ -1,0 +1,317 @@
+/************* Screen Sizes as described by Google Chrome **************/
+
+.ant-modal-wrap {
+	overflow-y: scroll;
+}
+
+@media screen and (min-width: 0px) {
+	/* smaller than a large mobile phone */
+
+	.projectsTitle {
+		text-align: center;
+		font-size: 58px;
+		color: var(--tertiary);
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+		font-family: "Source Code Pro", monospace;
+	}
+	.projectsDivider {
+		border-color: rgba(0, 0, 0, 0.2);
+		height: 2px;
+	}
+	.projectsDesc {
+		text-align: center;
+		color: var(--tertiary);
+		font-size: 15.7px;
+	}
+	.projectCard {
+		width: 240px;
+		max-width: 100%;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: center;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+	.projectCard:hover {
+		box-shadow: var(--highlight) 0 0 30px 1px;
+	}
+	.wipCard {
+		width: 240px;
+		max-width: 100%;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: center;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+	.projectCover {
+		position: absolute;
+		width: 120px;
+		height: 120px;
+		left: 50%;
+		top: 35%;
+		transform: translate(-50%, -50%);
+		box-shadow: none;
+	}
+	.ant-modal {
+		font-family: "Recursive", sans-serif;
+	}
+	.ant-card-cover {
+		min-height: 180px;
+	}
+	.carouselWrapper {
+		box-shadow: 0px 0px 20px 5px var(--tertiary);
+	}
+	.carouselPicture {
+		height: 200px;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 425px) {
+	/* between large mobile phone and tablet */
+
+	.projectsTitle {
+		text-align: center;
+		font-size: 72px;
+		color: var(--tertiary);
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+		font-family: "Source Code Pro", monospace;
+	}
+	.projectsDivider {
+		border-color: rgba(0, 0, 0, 0.2);
+		height: 2px;
+	}
+	.projectsDesc {
+		color: var(--tertiary);
+		font-size: 15.7px;
+	}
+	.projectCard {
+		width: 240px;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: center;
+	}
+	.projectCard:hover {
+		box-shadow: var(--highlight) 0 0 30px 1px;
+	}
+	.wipCard {
+		width: 240px;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: center;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+	.projectCover {
+		position: absolute;
+		width: 120px;
+		height: 120px;
+		left: 50%;
+		top: 35%;
+		transform: translate(-50%, -50%);
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+		box-shadow: none;
+	}
+	.coverWrapper {
+		width: 240px;
+		height: 240px;
+	}
+	.carouselWrapper {
+		box-shadow: 0px 0px 20px 5px var(--tertiary);
+	}
+	.carouselPicture {
+		height: 200px;
+		width: 100%;
+	}
+	.ant-modal {
+		width: 400px !important;
+		font-family: "Recursive", sans-serif;
+	}
+	.arrow {
+		font-size: 20px;
+		color: var(--primary) !important;
+		transition: 200ms;
+		text-align: center;
+	}
+	.arrow:hover {
+		font-size: 60px;
+		filter: brightness(110%);
+	}
+	.leftArrow {
+		float: left;
+	}
+	.rightArrow {
+		float: right;
+	}
+	.projectsRow {
+		max-width: 1500px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	/* between tablet and small laptop */
+
+	.projectsTitle {
+		text-align: center;
+		font-size: 72px;
+		color: var(--tertiary);
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+		font-family: "Source Code Pro", monospace;
+	}
+	.projectsDivider {
+		border-color: rgba(0, 0, 0, 0.2);
+		height: 2px;
+	}
+	.projectsDesc {
+		color: var(--tertiary);
+		font-size: 18.7px;
+	}
+	.projectCard {
+		width: 240px;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: center;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+	.wipCard {
+		width: 240px;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: center;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+	.projectCard:hover {
+		box-shadow: var(--highlight) 0 0 30px 1px;
+	}
+	.projectCover {
+		position: absolute;
+		width: 120px;
+		height: 120px;
+		left: 50%;
+		top: 35%;
+		transform: translate(-50%, -50%);
+		box-shadow: none;
+	}
+	.coverWrapper {
+		width: 240px;
+		height: 240px;
+	}
+	.carouselWrapper {
+		box-shadow: 0px 0px 20px 5px var(--tertiary);
+	}
+	.carouselPicture {
+		height: 300px;
+		width: 100%;
+	}
+	.ant-modal {
+		width: 700px !important;
+		font-family: "Recursive", sans-serif;
+	}
+	.arrow {
+		font-size: 50px;
+		color: var(--primary) !important;
+		transition: 200ms;
+		text-align: center;
+	}
+	.arrow:hover {
+		font-size: 60px;
+		filter: brightness(110%);
+	}
+	.leftArrow {
+		float: left;
+	}
+	.rightArrow {
+		float: right;
+	}
+	.projectsRow {
+		max-width: 1500px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	/* small laptop or larger */
+
+	.projectsTitle {
+		text-align: center;
+		font-size: 72px;
+		color: var(--tertiary);
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+		font-family: "Source Code Pro", monospace;
+	}
+	.projectsDivider {
+		border-color: rgba(0, 0, 0, 0.2);
+		height: 2px;
+	}
+	.projectDesc {
+		color: var(--tertiary);
+		font-size: 15.7px;
+	}
+	.projectCard {
+		width: 240px;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: center;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+	.wipCard {
+		width: 240px;
+		left: 50%;
+		transform: translateX(calc(-50% - 20px));
+		margin: 20px;
+		text-align: center;
+		box-shadow: var(--tertiary) 0 0 20px 1px;
+	}
+	.projectCard:hover {
+		box-shadow: var(--highlight) 0 0 30px 1px;
+	}
+	.projectCover {
+		width: 120px;
+		height: 120px;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		position: absolute;
+		box-shadow: none;
+	}
+	.coverWrapper {
+		width: 240px;
+		position: relative;
+	}
+	.carouselWrapper {
+		box-shadow: 0px 0px 20px 5px var(--tertiary);
+	}
+	.carouselPicture {
+		height: 400px;
+		width: 100%;
+	}
+	.ant-modal {
+		width: 900px !important;
+		font-family: "Recursive", sans-serif;
+	}
+	.arrow {
+		font-size: 50px;
+		color: var(--primary) !important;
+		transition: 200ms;
+	}
+	.arrow:hover {
+		font-size: 60px;
+		filter: brightness(110%);
+	}
+	.leftArrow {
+		float: left;
+	}
+	.rightArrow {
+		float: right;
+	}
+	.projectsRow {
+		max-width: 1500px;
+		margin: 0 auto;
+	}
+}

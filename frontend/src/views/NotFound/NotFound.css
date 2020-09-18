@@ -1,0 +1,73 @@
+.notFoundPage {
+	min-height: 90vh;
+}
+
+@media screen and (min-width: 0px) {
+	/* smaller than a phone */
+	.statusCode {
+		font-size: 104px;
+		text-align: center;
+		font-family: "Recursive", sans-serif;
+		color: var(--primary);
+	}
+
+	.errorMessage {
+		font-size: 18px;
+		text-align: center;
+		font-family: "Recursive", sans-serif;
+	}
+
+	.notFoundPageCode {
+		height: 90vh;
+		background-color: #1e1e1e;
+	}
+
+	.statusCodeCode {
+		font-size: 104px;
+		text-align: center;
+		font-family: "Recursive", sans-serif;
+		color: var(--primary);
+	}
+
+	.errorMessageCode {
+		font-size: 18px;
+		text-align: center;
+		font-family: "Recursive", sans-serif;
+		color: white;
+	}
+}
+
+@media screen and (min-width: 430px) {
+	/* bigger than a phone */
+	.statusCode {
+		font-size: 144px;
+		text-align: center;
+		font-family: "Recursive", sans-serif;
+		color: var(--primary);
+	}
+
+	.errorMessage {
+		font-size: 24px;
+		text-align: center;
+		font-family: "Recursive", sans-serif;
+	}
+
+	.notFoundPageCode {
+		height: 90vh;
+		background-color: #1e1e1e;
+	}
+
+	.statusCodeCode {
+		font-size: 144px;
+		text-align: center;
+		font-family: "Recursive", sans-serif;
+		color: var(--primary);
+	}
+
+	.errorMessageCode {
+		font-size: 24px;
+		text-align: center;
+		font-family: "Recursive", sans-serif;
+		color: white;
+	}
+}
